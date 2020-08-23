@@ -4,7 +4,7 @@ use Carbon_Fields\Field;
 /*
  * Plugin Name: OnePix Zones Addon
  * Description: 
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: OnePix Team
  * Author URI: https://one-pix.com/
  * Text Domain: onepix_zones
