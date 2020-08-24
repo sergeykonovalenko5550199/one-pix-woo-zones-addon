@@ -50,6 +50,7 @@ class OnePixAddonZones {
       ->add_tab( __('List of zones'), array(
         Field::make( 'complex', 'op_zones', 'Zones' )
           ->set_collapsed( true )
+          ->set_layout( 'tabbed-horizontal' )
           ->setup_labels( $zones_labels )
           ->add_fields( array(
               Field::make( 'text', 'title_op_zones', __( 'Title' ) ),
@@ -57,6 +58,7 @@ class OnePixAddonZones {
 
               Field::make( 'complex', 'zip_op_zones', 'Zone Codes ZIP' )
                 ->set_collapsed( true )
+                ->set_layout( 'tabbed-vertical' )
                 ->setup_labels( $zones_labels )
                 ->add_fields( array(
                     Field::make( 'text', 'code_zip_op_zones', __( 'Code ZIP' ) )->set_attribute( 'type', 'number' ),
